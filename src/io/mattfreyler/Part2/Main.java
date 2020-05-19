@@ -2,7 +2,11 @@ package io.mattfreyler.Part2;
 
 public class Main {
 
-    public static void main(String[] args) {
-	// write your code here
+  public static void main(String[] args) {
+    UIControl[] controls = {new TextBox(), new CheckBox()};
+
+    for (var control : controls) {
+      control.render();
     }
+  }
 }

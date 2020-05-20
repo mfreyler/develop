@@ -1,12 +1,11 @@
-package io.mattfreyler.Part2;
+package io.mattfreyler.inheritance;
 
 public class TextBox extends UIControl {
   private String text = "";
 
-//  public TextBox() {
-//    super(true);
-//  }
-
+  //  public TextBox() {
+  //    super(true);
+  //  }
 
   @Override
   public void render() {
@@ -18,11 +17,11 @@ public class TextBox extends UIControl {
     return text;
   }
 
-  public void setText(String text){
+  public void setText(String text) {
     this.text = text;
   }
 
-  public void clearText(){
+  public void clearText() {
     this.text = "";
   }
 }

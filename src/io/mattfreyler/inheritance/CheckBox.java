@@ -1,4 +1,4 @@
-package io.mattfreyler.Part2;
+package io.mattfreyler.inheritance;
 
 public class CheckBox extends UIControl {
   @Override

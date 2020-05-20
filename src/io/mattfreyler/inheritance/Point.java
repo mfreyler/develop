@@ -1,4 +1,4 @@
-package io.mattfreyler.Part2;
+package io.mattfreyler.inheritance;
 
 import java.util.Objects;
 
@@ -16,8 +16,7 @@ public class Point {
     if (this == obj) return true;
     if (obj == null || getClass() != obj.getClass()) return false;
     Point point = (Point) obj;
-    return x == point.x &&
-            y == point.y;
+    return x == point.x && y == point.y;
   }
 
   @Override

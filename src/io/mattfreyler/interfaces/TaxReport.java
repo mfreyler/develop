@@ -8,6 +8,7 @@ public class TaxReport {
   //    this.calculator = calculator;
   //  }
 
+  // Method injection (dependency injection)
   public void show(TaxCalculator calculator) {
     var tax = calculator.calculateTax();
     System.out.println(tax);

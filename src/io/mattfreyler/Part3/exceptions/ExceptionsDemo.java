@@ -1,7 +1,5 @@
 package io.mattfreyler.Part3.exceptions;
 
-import java.io.IOException;
-
 public class ExceptionsDemo {
   /*
    Checked
@@ -14,13 +12,13 @@ public class ExceptionsDemo {
    Error (outside our program)
        - StackOverflow (out of memory) error
   */
-  public static void show() throws IOException {
+  public static void show() {
     var account = new Account();
     try {
-      account.deposit(-1);
-    } catch (IOException e) {
-      System.out.println("Logging");
-      throw e;
+      account.withdraw(10);
+    } catch (AccountException e) {
+      var cause = e.getCause();
+      System.out.println(cause.getMessage());
     }
   }
 }

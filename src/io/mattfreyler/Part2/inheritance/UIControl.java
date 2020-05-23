@@ -1,4 +1,4 @@
-package io.mattfreyler.inheritance;
+package io.mattfreyler.Part2.inheritance;
 
 public abstract class UIControl {
   private boolean isEnabled = true;

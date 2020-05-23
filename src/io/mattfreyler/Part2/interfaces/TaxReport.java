@@ -1,4 +1,4 @@
-package io.mattfreyler.interfaces;
+package io.mattfreyler.Part2.interfaces;
 
 public class TaxReport {
   private TaxCalculator calculator;

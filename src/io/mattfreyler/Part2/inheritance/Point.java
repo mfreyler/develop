@@ -1,4 +1,4 @@
-package io.mattfreyler.inheritance;
+package io.mattfreyler.Part2.inheritance;
 
 import java.util.Objects;
 

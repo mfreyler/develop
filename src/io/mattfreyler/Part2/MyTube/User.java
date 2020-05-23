@@ -1,4 +1,4 @@
-package io.mattfreyler.MyTube;
+package io.mattfreyler.Part2.MyTube;
 
 public class User {
   private String email;

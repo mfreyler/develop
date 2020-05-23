@@ -1,4 +1,4 @@
-package io.mattfreyler.interfaces;
+package io.mattfreyler.Part2.interfaces;
 
 public interface TaxCalculator {
   // Interfaces should be small and light-weight, so they are less likely to change

@@ -14,3 +14,8 @@ public class CollectionsDemo {
     System.out.println(collection.equals(other));
   }
 }
+
+/*
+Collection: Use if all we care about is an object that contains elements and we can add and remove elements
+List: Use if our application requires us to care about the index position of the objects.
+ */
